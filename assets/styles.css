@@ -77,6 +77,8 @@ a:hover{ text-decoration: underline; }
 }
 
 .hero{
+  max-width: 980px;     /* 아래 섹션 카드 폭이 이 정도면 맞춰짐 */
+  margin: 0 auto;       /* 가운데 정렬 */
   padding: 26px;
   border-radius: calc(var(--r) + 4px);
   border: 1px solid var(--border);
