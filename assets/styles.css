@@ -121,7 +121,7 @@ a:hover{ text-decoration: underline; }
 .actions{ display:flex; gap:10px; flex-wrap:wrap; }
 .btn.primary{
   background: linear-gradient(90deg, var(--brand1), var(--brand2));
-  color: white;
+  color: #000000;
 }
 .btn:hover{ text-decoration:none; filter: brightness(1.05); }
 .btn.ghost{
