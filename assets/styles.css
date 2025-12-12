@@ -222,3 +222,8 @@ a:hover{ text-decoration: underline; }
   .grid{ grid-template-columns: 1fr; }
   .nav{ top: 8px; }
 }
+
+/* capsule header 숨기기 */
+img[src*="capsule-render"] {
+  display: none !important;
+}
